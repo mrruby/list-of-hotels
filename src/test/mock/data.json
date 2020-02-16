@@ -1,0 +1,229 @@
+{
+  "hotels": [
+    {
+      "id": 12321,
+      "name": "Park Plaza London Waterloo",
+      "location": {
+        "address": "6 Hercules Road",
+        "city": "London",
+        "latitude": 51.49845,
+        "longitude": -0.11343
+      },
+      "stars": 4,
+      "checkIn": {"from": "14:00", "to": "20:00"},
+      "checkOut": {"from": "07:00", "to": "10:00"},
+      "contact": {
+        "phoneNumber": "+39 24322342",
+        "email": "park_plaza@gmail.com"
+      },
+      "images": [
+        "https://aff.bstatic.com/images/hotel/max500/102/102202664.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102202628.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102202639.jpg"
+      ],
+      "userRating": 9.8
+    },
+    {
+      "id": 12322,
+      "name": "Belgrave House Hotel",
+      "location": {
+        "address": "28-32 Belgrave Road Victoria",
+        "city": "London",
+        "latitude": 51.49241,
+        "longitude": -0.14283
+      },
+      "stars": 4,
+      "checkIn": {"from": "12:00", "to": "20:00"},
+      "checkOut": {"from": "07:00", "to": "10:00"},
+      "contact": {"phoneNumber": "+44 5477432", "email": "belgrave@gmail.com"},
+      "images": [
+        "https://aff.bstatic.com/images/hotel/max500/102/102196969.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102201771.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102200772.jpg"
+      ],
+      "userRating": 7.8
+    },
+    {
+      "id": 12323,
+      "name": "Crowne Plaza LONDON - KINGS CROSS",
+      "location": {
+        "address": "1 Kings Cross Road",
+        "city": "London",
+        "latitude": 51.52647,
+        "longitude": -0.11325
+      },
+      "stars": 4,
+      "checkIn": {"from": "11:00", "to": "20:00"},
+      "checkOut": {"from": "07:00", "to": "12:00"},
+      "contact": {
+        "phoneNumber": "+44 5432356",
+        "email": "crowne_plaza@gmail.com"
+      },
+      "images": [
+        "https://aff.bstatic.com/images/hotel/max500/102/102200780.jpg"
+      ],
+      "userRating": 8.1
+    },
+    {
+      "id": 12324,
+      "name": "Dreamtel London Kensington",
+      "location": {
+        "address": "32-36 Hogarth Road Earl's Court",
+        "city": "London",
+        "latitude": 51.49338,
+        "longitude": -0.1919
+      },
+      "stars": 3,
+      "checkIn": {"from": "12:00", "to": "20:00"},
+      "checkOut": {"from": "07:00", "to": "10:00"},
+      "contact": {"phoneNumber": "+44 435432", "email": "dreamtel@gmail.com"},
+      "images": [
+        "https://aff.bstatic.com/images/hotel/max500/102/102202664.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102201746.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102196936.jpg"
+      ],
+      "userRating": 6.4
+    },
+    {
+      "id": 12325,
+      "name": "The Z Hotel Shoreditch",
+      "location": {
+        "address": "136-144 City Road",
+        "city": "London",
+        "latitude": 51.52684,
+        "longitude": -0.08857
+      },
+      "stars": 5,
+      "checkIn": {"from": "11:00", "to": "20:00"},
+      "checkOut": {"from": "07:00", "to": "10:00"},
+      "contact": {
+        "phoneNumber": "+44 435432",
+        "email": "the_z_hotel@gmail.com"
+      },
+      "images": [
+        "https://aff.bstatic.com/images/hotel/max500/102/102202639.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102202650.jpg",
+        "https://aff.bstatic.com/images/hotel/max500/102/102202664.jpg"
+      ],
+      "userRating": 7.4
+    },
+    {
+      "id": 12326,
+      "name": "Absolute Pleasure Yacht",
+      "location": {
+        "address": "Behind Hertsmere Rd West India Quay",
+        "city": "London",
+        "latitude": 51.5068844,
+        "longitude": -0.0218664
+      },
+      "stars": 5,
+      "checkIn": {"from": "13:00", "to": "24:00"},
+      "checkOut": {"from": "09:00", "to": "11:00"},
+      "contact": {
+        "phoneNumber": "+44 333 400 6112",
+        "email": "info@absoluteyacht.com"
+      },
+      "images": [
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1526472931/qsu1epwslsvy9pid4wsb.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1526472928/vqevw01hsjlraq05kj9a.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1526472930/spqsgnpt7d0l8upkli3h.jpg"
+      ],
+      "userRating": 8.4
+    },
+    {
+      "id": 12327,
+      "name": "The Z Hotel Piccadilly",
+      "location": {
+        "address": "2 Orange Street",
+        "city": "London",
+        "latitude": 51.5090236,
+        "longitude": -0.1314056
+      },
+      "stars": 4,
+      "checkIn": {"from": "15:00", "to": "22:00"},
+      "checkOut": {"from": "11:00", "to": "14:00"},
+      "contact": {
+        "phoneNumber": "+44 0800 083 4000",
+        "email": "contacts@zhotel.com"
+      },
+      "images": [
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1462894255/IMG_1920_eivibb.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1462893730/IMG_0118_lik4od.jpg"
+      ],
+      "userRating": 8.4
+    },
+    {
+      "id": 12328,
+      "name": "Seraphine Kensington Olympia",
+      "location": {
+        "address": "225 Kensington High Street",
+        "city": "London",
+        "latitude": 51.4992955,
+        "longitude": -0.1973931
+      },
+      "stars": 5,
+      "checkIn": {"from": "16:00", "to": "20:00"},
+      "checkOut": {"from": "10:00", "to": "12:00"},
+      "contact": {
+        "phoneNumber": "+44 0800 8736 4000",
+        "email": "contacts@seraphine.com"
+      },
+      "images": [
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1442245939/Double_Deluxe_402a_law5qt.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1442245941/402_bed_2_rgb_brai1t.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1442245939/302_bed_rgb_xwweyj.jpg"
+      ],
+      "userRating": 9.1
+    },
+    {
+      "id": 12329,
+      "name": "Mercure London Bridge",
+      "location": {
+        "address": "71-79 Southwark Street",
+        "city": "London",
+        "latitude": 51.5052581,
+        "longitude": -0.0991698
+      },
+      "stars": 4,
+      "checkIn": {"from": "17:00", "to": "23:00"},
+      "checkOut": {"from": "9:00", "to": "13:00"},
+      "contact": {
+        "phoneNumber": "+44 0810 57393 0873",
+        "email": "service@londobridge.com"
+      },
+      "images": [
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511700/mercure_london_bridge_hotel_hotel_03.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511681/mercure_london_bridge_hotel_bar_01.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511719/mercure_london_bridge_hotel_room_00.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511685/mercure_london_bridge_hotel_bar_03.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511687/mercure_london_bridge_hotel_business_00.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511689/mercure_london_bridge_hotel_business_01.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1428511690/mercure_london_bridge_hotel_business_02.jpg"
+      ],
+      "userRating": 9.1
+    },
+    {
+      "id": 12330,
+      "name": "Holiday Inn Express",
+      "location": {
+        "address": "87 South Lambeth Road",
+        "city": "London",
+        "latitude": 51.4808166,
+        "longitude": -0.1242507
+      },
+      "stars": 4,
+      "checkIn": {"from": "12:00", "to": "16:00"},
+      "checkOut": {"from": "9:00", "to": "13:00"},
+      "contact": {
+        "phoneNumber": "+44 0880 56483 0493",
+        "email": "customer@holidayinn.com"
+      },
+      "images": [
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1542697708/g8dhdri1vkkzvze6a2m2.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1541441526/wglcw1gwpyqs4ue07emw.jpg",
+        "https://res.cloudinary.com/lastminute/image/upload/t_OSE_det_gall_ret/q_auto/v1542697708/uccn2cbsxbbzfdlsu9rf.jpg"
+      ],
+      "userRating": 6.7
+    }
+  ]
+}
