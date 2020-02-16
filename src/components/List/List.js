@@ -4,20 +4,17 @@
  */
 
 import React from 'react';
-import {FlatList, Text, StyleSheet} from 'react-native';
+import {FlatList} from 'react-native';
+import ListItem from './ListItem/ListItem';
 
 const List: () => React$Node = ({data}) => {
   return (
     <FlatList
       data={data}
-      renderItem={({item: {name}}) => <Text style={styles.item}>{name}</Text>}
+      renderItem={({item}) => <ListItem {...item} />}
       keyExtractor={item => item.id.toString()}
     />
   );
 };
-
-const styles = StyleSheet.create({
-  item: {fontSize: 20, paddingTop: 5},
-});
 
 export default List;
