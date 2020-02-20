@@ -7,14 +7,7 @@
  */
 
 import React, {useState} from 'react';
-import {
-  SafeAreaView,
-  Text,
-  ActivityIndicator,
-  StyleSheet,
-  View,
-  TouchableOpacity,
-} from 'react-native';
+import {SafeAreaView, ActivityIndicator, StyleSheet, View} from 'react-native';
 import List from './src/components/List/List';
 import Title from './src/components/other/Title';
 import SortPanel from './src/components/SortPanel/SortPanel';
