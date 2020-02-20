@@ -20,9 +20,9 @@ describe('the useInput hook', () => {
   it('should make the api call to fetch and return loading state', async () => {
     const setData = jest.fn();
     const {result, waitForNextUpdate} = renderHook(() => useHotelsApi(setData));
-    expect(result.current).toEqual(true);
+    expect(result.current).toEqual([true, []]);
     await waitForNextUpdate();
-    expect(result.current).toEqual(false);
+    expect(result.current).toEqual([false, mockedData.hotels]);
   });
   it('should make the api call to fetch and set hotels data', async () => {
     const setData = jest.fn();

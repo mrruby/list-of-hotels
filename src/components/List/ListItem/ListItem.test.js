@@ -17,7 +17,13 @@ describe('Component: ListItem', () => {
     const elementListChildren = flatten(
       elementList.map(({children}) => children),
     );
-    expect(elementListChildren[0]).toBe(mockedHotel.name);
-    expect(elementListChildren[1]).toBe(mockedHotel.userRating.toString());
+    const results = [
+      mockedHotel.name,
+      mockedHotel.location.city,
+      `Rate: ${mockedHotel.userRating}`,
+    ];
+    results.map((result, index) => {
+      expect(elementListChildren[index]).toBe(result);
+    });
   });
 });

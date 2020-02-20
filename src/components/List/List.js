@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, StyleSheet} from 'react-native';
 import ListItem from './ListItem/ListItem';
 
 const List: () => React$Node = ({data}) => {
@@ -16,5 +16,9 @@ const List: () => React$Node = ({data}) => {
     />
   );
 };
+
+const styles = StyleSheet.create({
+  item: {},
+});
 
 export default List;

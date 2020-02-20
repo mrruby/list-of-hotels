@@ -7,19 +7,50 @@
  */
 
 import React, {useState} from 'react';
-import {SafeAreaView, Text, ActivityIndicator} from 'react-native';
+import {
+  SafeAreaView,
+  Text,
+  ActivityIndicator,
+  StyleSheet,
+  View,
+  TouchableOpacity,
+} from 'react-native';
 import List from './src/components/List/List';
+import Title from './src/components/other/Title';
+import SortPanel from './src/components/SortPanel/SortPanel';
+import {colors} from './src/constants';
 import {useHotelsApi} from './src/hooks';
 
 const App: () => React$Node = () => {
   const [hotelsList, setHotelsList] = useState([]);
-  const isLoading = useHotelsApi(setHotelsList);
+  const [isLoading, initialData] = useHotelsApi(setHotelsList);
   return (
-    <SafeAreaView>
-      <Text>List of Hotels</Text>
-      {isLoading ? <ActivityIndicator /> : <List data={hotelsList} />}
-    </SafeAreaView>
+    <View style={styles.background}>
+      <SafeAreaView />
+
+      <SafeAreaView style={styles.content}>
+        <Title />
+        <View style={styles.content}>
+          {isLoading ? (
+            <ActivityIndicator />
+          ) : (
+            <>
+              <List data={hotelsList} />
+              <SortPanel {...{setHotelsList, initialData}} />
+            </>
+          )}
+        </View>
+      </SafeAreaView>
+    </View>
   );
 };
+
+const styles = StyleSheet.create({
+  background: {
+    backgroundColor: colors.main,
+    flex: 1,
+  },
+  content: {flex: 1, backgroundColor: colors.background},
+});
 
 export default App;
